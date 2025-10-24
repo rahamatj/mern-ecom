@@ -1,14 +1,32 @@
 import express from 'express';
-import 'dotenv/config';
 import mongoose from 'mongoose';
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors'
 
 const app = express();
 
-app.use(cors({ origin: 'https://mern-ecom.xyz' }));
+const allowedOrigins = [
+    'https://mern-ecom.xyz',
+    'http://localhost:5173',
+];
 
-const PORT = process.env.PORT || 5000;
+const corsOptions = {
+    origin: function (origin, callback) {
+        // Allow requests with no origin (like mobile apps or curl requests)
+        if (!origin) return callback(null, true);
+
+        if (allowedOrigins.includes(origin)) {
+            callback(null, true); // origin allowed
+        } else {
+            callback(new Error('Not allowed by CORS')); // origin not allowed
+        }
+    },
+    credentials: true, // if you want to allow cookies
+};
+
+app.use(cors(corsOptions));
+
+const PORT = process.env.PORT || 3001;
 
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -20,7 +38,7 @@ app.get('/', (req, res) => {
 });
 
 // Local MongoDB connection URL
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/ecom'; // Replace 'mydatabase' with your DB name
+const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom' // Replace 'mydatabase' with your DB name
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)
