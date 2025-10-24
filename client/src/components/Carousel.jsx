@@ -39,8 +39,6 @@ function Carousel() {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
     };
     return (
         <div className="relative w-full mx-auto mt-10">
