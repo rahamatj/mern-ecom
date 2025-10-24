@@ -8,8 +8,8 @@ const ProductOverview = () => {
     const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
 
-    const API_URL = "https://mern-ecom-02422ee95db0.herokuapp.com/";
-    // const API_URL = "http://localhost:3001";
+    // const API_URL = "https://mern-ecom-02422ee95db0.herokuapp.com/";
+    const API_URL = "http://localhost:3001";
 
     React.useEffect(() => {
         // Fetch products from the backend API

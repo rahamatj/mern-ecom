@@ -3,6 +3,7 @@ import { faker } from '@faker-js/faker';
 import Product from '../models/Product.js'; // your Product schema
 
 const MONGO_URI="mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom"
+// const MONGO_URI = 'mongodb://localhost:27017/ecom'
 
 const seedProducts = async (count = 100) => {
     try {

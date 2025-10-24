@@ -6,7 +6,7 @@ import cors from 'cors'
 const app = express();
 
 const allowedOrigins = [
-    'https://mern-ecom.xyz',
+    'http://mern-ecom.xyz',
     'http://localhost:5173',
 ];
 
@@ -38,7 +38,8 @@ app.get('/', (req, res) => {
 });
 
 // Local MongoDB connection URL
-const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom' // Replace 'mydatabase' with your DB name
+// const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom'
+const MONGO_URI = 'mongodb://localhost:27017/ecom'
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)
