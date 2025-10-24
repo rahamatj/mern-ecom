@@ -3,7 +3,6 @@ import 'dotenv/config';
 import mongoose from 'mongoose';
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors'
-import path from 'path'
 
 const app = express();
 
@@ -13,8 +12,6 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware to parse JSON requests
 app.use(express.json());
-
-// Sample route
 
 app.use('/api/products', productRoutes);
 

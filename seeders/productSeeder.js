@@ -1,55 +1,40 @@
-import { faker } from '@faker-js/faker';
 import mongoose from 'mongoose';
-import Product from '../models/Product.js';
-import dotenv from "dotenv";
-import path from 'path';
-import { fileURLToPath } from 'url';
+import { faker } from '@faker-js/faker';
+import Product from '../models/Product.js'; // your Product schema
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const MONGO_URI="mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom"
 
-dotenv.config({ path: path.resolve(__dirname, '../.env') });
+const seedProducts = async (count = 100) => {
+    try {
+        await mongoose.connect(MONGO_URI);
+        console.log('✅ Connected to MongoDB');
 
-// MongoDB connection URL
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/ecom'; // Ensure this is set in your .env file
+        // Optional: Clear existing products
+        await Product.deleteMany({});
+        console.log('🧹 Cleared existing products');
 
-// Connect to MongoDB
-mongoose.connect(MONGO_URI)
-    .then(() => {
-        console.log('✅ Connected to MongoDB for seeding');
-    })
-    .catch(err => {
-        console.error('❌ MongoDB connection error:', err);
-        process.exit(1);
-    });
-
-const generateFakeProducts = (count = 100) => {
-    const products = [];
-    const colors = ['red', 'blue', 'green', 'yellow', 'black', 'white', 'purple', 'orange'];
-    const tags = ['fashion', 'lifestyle', 'denim', 'streetstyle', 'crafts'];
-
-    for (let i = 0; i < count; i++) {
-        products.push({
+        // Generate fake products
+        const products = Array.from({ length: count }).map(() => ({
             name: faker.commerce.productName(),
-            image: '/frontend/images/product-01.jpg',
-            price: parseFloat(faker.commerce.price({ min: 10, max: 1000 })),
+            image: `/frontend/images/product-${faker.number.int({ min: 1, max: 16 })}.jpg`,
+            price: parseFloat(faker.commerce.price({ min: 10, max: 500 })),
             description: faker.commerce.productDescription(),
             inStock: faker.datatype.boolean(),
             noOfSales: faker.number.int({ min: 0, max: 1000 }),
-            color: faker.helpers.arrayElements(colors),
-            tags: faker.helpers.arrayElements(tags),
-        });
+            color: Array.from({ length: faker.number.int({ min: 1, max: 3 }) }, () => faker.color.human()),
+            tags: Array.from({ length: faker.number.int({ min: 2, max: 5 }) }, () => faker.commerce.productAdjective()),
+        }));
+
+        await Product.insertMany(products);
+        console.log(`🎉 Successfully inserted ${count} products`);
+
+        await mongoose.connection.close();
+        console.log('🔌 MongoDB connection closed');
+    } catch (error) {
+        console.error('❌ Error seeding products:', error);
+        process.exit(1);
     }
-
-    return products;
 };
 
-// Insert fake data into MongoDB
-const seedDB = async () => {
-    const fakeProducts = generateFakeProducts(100);
-    await Product.insertMany(fakeProducts);
-    console.log('Fake products inserted!');
-    mongoose.connection.close();
-};
-
-await seedDB();
+// Run the seeder
+seedProducts(100);
