@@ -1,5 +1,4 @@
 import React from 'react'
-import Modal from "./Modal.jsx";
 import {Link} from "react-router-dom";
 
 const ProductOverview = () => {
@@ -14,17 +13,20 @@ const ProductOverview = () => {
     React.useEffect(() => {
         // Fetch products from the backend API
         async function fetchProducts() {
-
             try {
-                const response = await fetch(`${API_URL}/api/products`);
-                const products = await response.json();
+                fetch(`${API_URL}/api/products/`)
+                    .then(res => res.json())
+                    .then(products => setProducts(products))
+                    .catch(err => console.error(err));
+
                 setProducts(products.splice(startingSplicingIndex, endingSplicingIndex));
             } catch (error) {
-                console.error('Error fetching products:', error);
+                console.error(error);
             }
         }
 
         fetchProducts();
+
     }, []);
 
     const handleSearch = (event) => {

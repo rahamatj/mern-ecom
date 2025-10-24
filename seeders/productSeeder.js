@@ -30,8 +30,11 @@ const seedProducts = async (count = 100) => {
 
         await mongoose.connection.close();
         console.log('🔌 MongoDB connection closed');
+
+        process.exit(1);
     } catch (error) {
         console.error('❌ Error seeding products:', error);
+
         process.exit(1);
     }
 };
