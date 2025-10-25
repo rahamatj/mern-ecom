@@ -38,8 +38,8 @@ app.get('/', (req, res) => {
 });
 
 // Local MongoDB connection URL
-const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom'
-// const MONGO_URI = 'mongodb://localhost:27017/ecom'
+// const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom'
+const MONGO_URI = 'mongodb://localhost:27017/ecom'
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)
