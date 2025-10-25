@@ -18,7 +18,7 @@ const ProductOverview = () => {
             try {
                 await axios.get(`${API_URL}/api/products/`)
                     .then(res => {
-                        setProducts(res.data);
+                        setProducts([ ...res.data ]);
                     })
                     .catch(err => console.error(err));
             } catch (error) {
