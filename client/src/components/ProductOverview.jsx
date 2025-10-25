@@ -17,7 +17,7 @@ const ProductOverview = () => {
             try {
                 await axios.get(`${API_URL}/api/products/`)
                     .then(res => {
-                        const data = res.data;
+                        const data = res.data.slice(1, 17);
 
                         setProducts([ ...data ]);
                     })
