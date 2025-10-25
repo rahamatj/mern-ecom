@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import axios from "axios";
 
 const ProductOverview = () => {
     const [showFilters, setShowFilters] = React.useState(false);
@@ -8,19 +9,18 @@ const ProductOverview = () => {
     const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
 
-    // const API_URL = "https://mern-ecom-02422ee95db0.herokuapp.com/";
-    const API_URL = "http://localhost:3001";
+    // const API_URL = "http://localhost:3001";
+    const API_URL = "https://mern-ecom-9jpw.onrender.com/";
 
     React.useEffect(() => {
         // Fetch products from the backend API
         async function fetchProducts() {
             try {
-                fetch(`${API_URL}/api/products/`)
-                    .then(res => res.json())
-                    .then(products => setProducts(products))
+                await axios.get(`${API_URL}/api/products/`)
+                    .then(res => {
+                        setProducts(res.data);
+                    })
                     .catch(err => console.error(err));
-
-                setProducts(products.splice(startingSplicingIndex, endingSplicingIndex));
             } catch (error) {
                 console.error(error);
             }
