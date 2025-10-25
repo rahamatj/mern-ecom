@@ -27,16 +27,9 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-const PORT = process.env.PORT || 3001;
-
-// Middleware to parse JSON requests
 app.use(express.json());
 
-app.use('/api/products', productRoutes);
-
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
-});
+const PORT = process.env.PORT || 3001;
 
 // Local MongoDB connection URL
 const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom'
@@ -55,6 +48,12 @@ mongoose.connect(MONGO_URI)
         console.error('❌ MongoDB connection error:', err)
         process.exit(1);
     });
+
+app.use('/api/products', productRoutes);
+
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+});
 
 
 
