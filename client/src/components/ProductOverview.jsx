@@ -9,16 +9,17 @@ const ProductOverview = () => {
     const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
 
-    // const API_URL = "http://localhost:3001";
-    const API_URL = "https://mern-ecom-9jpw.onrender.com/";
+    const API_URL = "http://localhost:3001";
+    // const API_URL = "https://mern-ecom-9jpw.onrender.com/";
 
     React.useEffect(() => {
-        // Fetch products from the backend API
         async function fetchProducts() {
             try {
                 await axios.get(`${API_URL}/api/products/`)
                     .then(res => {
-                        setProducts([ ...res.data ]);
+                        const data = res.data;
+
+                        setProducts([ ...data ]);
                     })
                     .catch(err => console.error(err));
             } catch (error) {
