@@ -5,27 +5,7 @@ import cors from 'cors'
 
 const app = express();
 
-const allowedOrigins = [
-    'http://mern-ecom.xyz',
-    'http://localhost:5173',
-    'https://mern-ecom-client-7qb2.onrender.com'
-];
-
-const corsOptions = {
-    origin: function (origin, callback) {
-        // Allow requests with no origin (like mobile apps or curl requests)
-        if (!origin) return callback(null, true);
-
-        if (allowedOrigins.includes(origin)) {
-            callback(null, true); // origin allowed
-        } else {
-            callback(new Error('Not allowed by CORS')); // origin not allowed
-        }
-    },
-    credentials: true, // if you want to allow cookies
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(express.json());
 

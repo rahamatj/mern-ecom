@@ -10,12 +10,4 @@ router.get('/', async (req, res) => {
     return res.status(200).json(products);
 });
 
-router.get('/seed', async (req, res) => {
-    try {
-        seed(100);
-    } catch (e) {
-        console.error(e.message);
-    }
-});
-
 export default router;
