@@ -12,23 +12,22 @@ const ProductOverview = () => {
     // const API_URL = "http://localhost:3001";
     const API_URL = "https://mern-ecom-9jpw.onrender.com/";
 
-    React.useEffect(() => {
-        async function fetchProducts() {
-            try {
-                await axios.get(`${API_URL}/api/products/`)
-                    .then(res => {
-                        const data = res.data.slice(1, 17);
+    async function fetchProducts() {
+        try {
+            await axios.get(`${API_URL}/api/products/`)
+                .then(res => {
+                    const data = res.data.slice(1, 17);
 
-                        setProducts([ ...data ]);
-                    })
-                    .catch(err => console.error(err));
-            } catch (error) {
-                console.error(error);
-            }
+                    setProducts([ ...data ]);
+                })
+                .catch(err => console.error(err));
+        } catch (error) {
+            console.error(error);
         }
+    }
 
+    React.useEffect(() => {
         fetchProducts();
-
     }, []);
 
     const handleSearch = (event) => {
