@@ -10,7 +10,7 @@ const ProductOverview = () => {
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
 
     // const API_URL = "http://localhost:3001";
-    const API_URL = "https://mern-ecom-9jpw.onrender.com/";
+    const API_URL = "https://mern-ecom-9jpw.onrender.com";
 
     async function fetchProducts() {
         try {
