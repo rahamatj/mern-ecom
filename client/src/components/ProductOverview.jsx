@@ -27,7 +27,6 @@ const ProductOverview = () => {
     }
 
     React.useEffect(() => {
-        console.log("Check");
         fetchProducts();
     }, []);
 
@@ -277,7 +276,7 @@ const ProductOverview = () => {
                                         <i className="zmdi zmdi-search"></i>
                                     </button>
 
-                                    <input onChange={handleSearch} className="mtext-107 cl2 size-114 plh2 p-r-15"
+                                    <input onKeyUp={handleSearch} className="mtext-107 cl2 size-114 plh2 p-r-15"
                                            type="text" name="search-product"
                                            placeholder="Search"/>
                                 </div>
