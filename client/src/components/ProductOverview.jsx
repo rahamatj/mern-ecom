@@ -9,18 +9,18 @@ const ProductOverview = () => {
     const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
 
-    const API_URL = "http://localhost:3001";
-    // const API_URL = "https://mern-ecom-9jpw.onrender.com/";
+    // const API_URL = "http://localhost:3001";
+    const API_URL = "https://mern-ecom-9jpw.onrender.com/";
 
     async function fetchProducts() {
         try {
-            await axios.get(`${API_URL}/api/products/`)
-                .then(res => {
-                    const data = res.data.slice(1, 17);
-
-                    setProducts([ ...data ]);
-                })
-                .catch(err => console.error(err));
+            try {
+                const res = await axios.get(`${API_URL}/api/products/`);
+                const data = res.data.slice(1, 17);
+                setProducts(data);
+            } catch (error) {
+                console.error("Error fetching products:", error);
+            }
         } catch (error) {
             console.error(error);
         }
