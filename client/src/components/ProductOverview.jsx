@@ -27,6 +27,7 @@ const ProductOverview = () => {
     }
 
     React.useEffect(() => {
+        console.log("Check");
         fetchProducts();
     }, []);
 
