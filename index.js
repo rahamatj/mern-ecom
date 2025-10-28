@@ -2,6 +2,9 @@ import express from 'express';
 import mongoose from 'mongoose';
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors'
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
@@ -12,8 +15,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3001;
 
 // Local MongoDB connection URL
-const MONGO_URI = 'mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom'
-// const MONGO_URI = 'mongodb://localhost:27017/ecom'
+const MONGO_URI = process.env.MONGO_URI;
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)

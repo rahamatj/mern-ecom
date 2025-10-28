@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import {Link} from "react-router-dom";
 import axios from "axios";
+import { LoadMoreContext } from "../contexts/LoadMoreContext.jsx";
+
+const API_URL = import.meta.env.VITE_API_URL;
 
 const ProductOverview = () => {
     const [showFilters, setShowFilters] = React.useState(false);
@@ -9,24 +12,19 @@ const ProductOverview = () => {
     const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
 
-    // const API_URL = "http://localhost:3001";
-    const API_URL = "https://mern-ecom-9jpw.onrender.com";
+    const { page, increasePage } = useContext(LoadMoreContext);
 
     async function fetchProducts() {
         try {
-            try {
-                const res = await axios.get(`${API_URL}/api/products/`);
-                const data = res.data.slice(1, 17);
-                setProducts(data);
-            } catch (error) {
-                console.error("Error fetching products:", error);
-            }
+            const res = await axios.get(`${API_URL}/api/products/1/16`);
+            setProducts(res.data);
         } catch (error) {
             console.error(error);
         }
     }
 
     React.useEffect(() => {
+        console.log(page);
         fetchProducts();
     }, []);
 
@@ -217,22 +215,17 @@ const ProductOverview = () => {
     const handleLoadMore = (e) => {
         e.preventDefault();
 
-        const newStartingIndex = endingSplicingIndex;
-        const newEndingIndex = endingSplicingIndex + 16;
+        // const newStartingIndex = endingSplicingIndex;
+        // const newEndingIndex = endingSplicingIndex + 16;
 
-        fetch(`${API_URL}/api/products`)
+        fetch(`${API_URL}/api/products/${page}/16`)
             .then(response => response.json())
             .then(data => {
-                const moreProducts = data.slice(newStartingIndex, newEndingIndex);
-                setProducts(prevProducts => [...prevProducts, ...moreProducts]);
-                setStartingSplicingIndex(newStartingIndex);
-                setEndingSplicingIndex(newEndingIndex);
+                increasePage(page + 1)
+                setProducts(data)
             })
             .catch(error => console.error('Error fetching products:', error));
     };
-
-    const [showModal, setShowModal] = React.useState(false);
-    const [product, setProduct] = React.useState({});
 
     return (
         <>
