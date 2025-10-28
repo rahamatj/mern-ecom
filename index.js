@@ -4,7 +4,12 @@ import productRoutes from './routes/productRoutes.js';
 import cors from 'cors'
 import dotenv from "dotenv";
 
-dotenv.config();
+// Load different env file depending on NODE_ENV
+if (process.env.NODE_ENV === "production") {
+    dotenv.config({ path: ".env.production" });
+} else {
+    dotenv.config({ path: ".env" });
+}
 
 const app = express();
 
