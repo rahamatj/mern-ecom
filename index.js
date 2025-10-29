@@ -36,7 +36,7 @@ mongoose.connect(MONGO_URI)
         process.exit(1);
     });
 
-app.use('/api/products', productRoutes);
+app.use('api/products', productRoutes);
 
 app.get('/', (req, res) => {
     res.send('Hello, World!');
