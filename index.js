@@ -2,14 +2,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors'
-import dotenv from "dotenv";
-
-// Load different env file depending on NODE_ENV
-if (process.env.NODE_ENV === "production") {
-    dotenv.config({ path: ".env.production" });
-} else {
-    dotenv.config({ path: ".env" });
-}
 
 const app = express();
 
@@ -17,10 +9,10 @@ app.use(cors());
 
 app.use(express.json());
 
-const PORT = process.env.PORT || 3001;
+const PORT = 3001;
 
 // Local MongoDB connection URL
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = "mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom";
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)

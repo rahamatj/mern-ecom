@@ -17,7 +17,7 @@ router.get('/:page/:limit/', async (req, res) => {
 
     const products = await Product.find().skip(skip).limit(limit);
 
-    console.log(products);
+    // console.log(products);
 
     return res.status(200).json(products);
 });

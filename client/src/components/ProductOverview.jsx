@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import axios from "axios";
 import { LoadMoreContext } from "../contexts/LoadMoreContext.jsx";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://mern-ecom-9jpw.onrender.com";
 
 const ProductOverviewBak = () => {
     const [showFilters, setShowFilters] = React.useState(false);
@@ -13,8 +13,6 @@ const ProductOverviewBak = () => {
     const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
     const [loading, setLoading] = React.useState(true);
     const { page, increasePage } = useContext(LoadMoreContext);
-
-    console.log(API_URL);
 
     async function fetchProducts() {
         try {
