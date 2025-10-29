@@ -232,7 +232,6 @@ const ProductOverviewBak = () => {
 
     return (
         <>
-
             { loading && (<div className="flex justify-center mb-5">
                 <div role="status">
                     <svg aria-hidden="true" className="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
@@ -509,7 +508,7 @@ const ProductOverviewBak = () => {
                         <div className="row">
                             {products.length === 0 ?
                                 <h1 className="text-red-500">No products found!</h1> : products.map((product) => (
-                                    <div className="col-sm-6 col-md-4 col-lg-3 p-b-35">
+                                    <div key={product._id} className="col-sm-6 col-md-4 col-lg-3 p-b-35">
                                         <div className="block2">
                                             <div className="block2-pic hov-img0">
                                                 <img src={product.image} alt="IMG-PRODUCT"/>
