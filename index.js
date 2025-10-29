@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors'
 
+const API_URL = "https://mern-ecom-9jpw.onrender.com"
+
 const app = express();
 
 app.use(cors());
@@ -28,7 +30,7 @@ mongoose.connect(MONGO_URI)
         process.exit(1);
     });
 
-app.use('api/products', productRoutes);
+app.use(`${API_URL}/api/products`, productRoutes);
 
 app.get('/', (req, res) => {
     res.send('Hello, World!');
