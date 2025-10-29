@@ -14,6 +14,8 @@ const ProductOverviewBak = () => {
     const [loading, setLoading] = React.useState(true);
     const { page, increasePage } = useContext(LoadMoreContext);
 
+    console.log(API_URL);
+
     async function fetchProducts() {
         try {
             setLoading(true);
