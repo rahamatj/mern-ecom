@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 const PORT = 3001;
 
 // Local MongoDB connection URL
-const MONGO_URI = "mongodb://127.0.0.1:27017/ecom";
+const MONGO_URI = "mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom";
 
 // Root route
 app.get('/', (req, res) => {

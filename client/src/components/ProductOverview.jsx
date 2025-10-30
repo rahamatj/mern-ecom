@@ -1,8 +1,6 @@
 import React, {useContext} from 'react'
 import {Link} from "react-router-dom";
-import axios from "axios";
 import { LoadMoreContext } from "../contexts/LoadMoreContext.jsx";
-import { useSearchParams } from "react-router-dom";
 
 const ProductOverviewBak = () => {
     const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
@@ -13,7 +11,7 @@ const ProductOverviewBak = () => {
     const [loading, setLoading] = React.useState(true);
     const { page, increasePage } = useContext(LoadMoreContext);
 
-    const API_URL = "http://localhost:3001";
+    const API_URL = "https://mern-ecom-9jpw.onrender.com";
 
     async function fetchProducts() {
         try {
