@@ -2,32 +2,44 @@ import React, {useContext} from 'react'
 import {Link} from "react-router-dom";
 import axios from "axios";
 import { LoadMoreContext } from "../contexts/LoadMoreContext.jsx";
-
-const API_URL = "https://mern-ecom-9jpw.onrender.com";
+import { useSearchParams } from "react-router-dom";
 
 const ProductOverviewBak = () => {
+    const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
+    const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
     const [showFilters, setShowFilters] = React.useState(false);
     const [showSearch, setShowSearch] = React.useState(false);
     const [products, setProducts] = React.useState([]);
-    const [startingSplicingIndex, setStartingSplicingIndex] = React.useState(0);
-    const [endingSplicingIndex, setEndingSplicingIndex] = React.useState(16);
     const [loading, setLoading] = React.useState(true);
     const { page, increasePage } = useContext(LoadMoreContext);
 
+    const API_URL = "http://localhost:3001";
+
     async function fetchProducts() {
         try {
+
+            const page = 1;
+            const limit = 16;
+
             setLoading(true);
-            const res = await axios.get(`${API_URL}/api/products/1/16`);
-            setProducts(res.data);
+            fetch(`${API_URL}/api/products/${page}/${limit}`)
+                .then(res => {
+                    // console.log(res.json());
+                    return res.json()
+                })
+                .then(products => {
+                    setProducts(products)
+                })
+                .catch(err => console.error(err))
+                .finally(() => setLoading(false));
+
+            setProducts(products.splice(startingSplicingIndex, endingSplicingIndex));
         } catch (error) {
             console.error(error);
-        } finally {
-            setLoading(false);
         }
     }
 
     React.useEffect(() => {
-        console.log(page);
         fetchProducts();
     }, []);
 
@@ -134,7 +146,7 @@ const ProductOverviewBak = () => {
     const handlePriceFiftyToHundred = (event) => {
         event.preventDefault();
 
-        fetch(`${API_URL}/api/products`)
+        fetch(`api/products`)
             .then(response => response.json())
             .then(products => {
                 // Filter products with price between $50 and $100
