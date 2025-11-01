@@ -1,6 +1,7 @@
 import express from 'express';
 import Product from "../models/Product.js";
 import {faker} from "@faker-js/faker";
+import product from "../models/Product.js";
 
 const router = express.Router();
 
@@ -44,5 +45,83 @@ router.get(`/search`, async (req, res) => {
         return res.status(404).json({msg: "Product not Found"});
     }
 });
+
+router.get(`/sort`, async (req, res) => {
+    const sortBy= req.query.sortBy;
+
+    let products = [];
+
+    if (sortBy) {
+        switch (sortBy) {
+            case "popularityAsc":
+                products = await Product.find().sort({ noOfSales: 1 });
+                break;
+            case "newnessAsc":
+                products = await Product.find().sort({ createdAt: -1 });
+                break;
+            case "priceAsc":
+                products = await Product.find().sort({ price: 1 });
+                break;
+            case "priceDesc":
+                products = await Product.find().sort({ price: -1 });
+                break;
+        }
+    }
+
+    res.status(200).json(products);
+})
+
+router.get('/price', async (req, res) => {
+    const lowerBound = req.query.lowerBound;
+    const upperBound = req.query.upperBound;
+
+    let products = [];
+
+    if (lowerBound && upperBound) {
+        products = await Product.find({
+            price: { $gte: lowerBound, $lte: upperBound }
+        })
+
+        if (upperBound === -1) {
+            products = await Product.find({
+                price: { $gte: lowerBound }
+            })
+        }
+    }
+
+    res.status(200).json(products);
+})
+
+router.get('/color', async (req, res) => {
+    const color = req.query.color;
+
+    let products = [];
+
+    if (color) {
+        products = await Product.find({
+            color: color,
+        });
+
+        return res.status(200).json(products);
+    } else {
+        return res.status(404).json({msg: "Product not Found"});
+    }
+})
+
+router.get('/tag', async (req, res) => {
+    const tag = req.query.tag;
+
+    let products = [];
+
+    if (tag) {
+        products = await Product.find({
+            tags: tag,
+        });
+
+        return res.status(200).json(products);
+    } else {
+        return res.status(404).json({msg: "Product not Found"});
+    }
+})
 
 export default router;

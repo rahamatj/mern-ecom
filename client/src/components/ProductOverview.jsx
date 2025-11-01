@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import clientConfig from "@/utils/client.config.js";
 
 const ProductOverview = () => {
     const [showFilters, setShowFilters] = React.useState(false);
@@ -11,26 +12,20 @@ const ProductOverview = () => {
     const [page, setPage] = React.useState(1);
     const [limit, setLimit] = React.useState(16);
 
-    const API_URL = "https://mern-ecom-9jpw.onrender.com";
-
-    // const API_URL = "http://localhost:3001";
+    const API_URL = clientConfig().API_URL;
 
     async function fetchProducts() {
-        try {
-            setLoadingProductOverview(true);
-            fetch(`${API_URL}/api/products/paginate?page=${page}&limit=${limit}`)
-                .then(res => {
-                    return res.json()
-                })
-                .then(products => {
-                    setProducts(products)
-                    setPage(page + 1)
-                })
-                .catch(err => console.error(err))
-                .finally(() => setLoadingProductOverview(false));
-        } catch (error) {
-            console.error(error);
-        }
+        setLoadingProductOverview(true);
+        fetch(`${API_URL}/api/products/paginate?page=${page}&limit=${limit}`)
+            .then(res => {
+                return res.json()
+            })
+            .then(products => {
+                setProducts(products)
+                setPage(page + 1)
+            })
+            .catch(err => console.error(err))
+            .finally(() => setLoadingProductOverview(false));
     }
 
     React.useEffect(() => {
@@ -39,8 +34,6 @@ const ProductOverview = () => {
 
     const handleSearch = (e) => {
         const search = e.target.value;
-
-        console.log(search);
 
         if (search) {
             setLoadingProductOverview(true);
@@ -57,178 +50,76 @@ const ProductOverview = () => {
     const handleDefault = (event) => {
         event.preventDefault();
 
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-
-                if (endingSplicingIndex < products.length + 1) {
-                    setProducts(products.splice(startingSplicingIndex, endingSplicingIndex));
-                } else {
-                    console.error("No more products to load");
-                }
-
-                // Reset to default product list
-                const sortedProducts = [...products].sort((a, b) => a._id.localeCompare(b._id));
-                setProducts(sortedProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
+        try {
+            setLoadingProductOverview(true);
+            fetch(`${API_URL}/api/products/paginate?page=${page}&limit=${limit}`)
+                .then(res => {
+                    return res.json()
+                })
+                .then(products => {
+                    setProducts(products)
+                })
+                .catch(err => console.error(err))
+                .finally(() => setLoadingProductOverview(false));
+        } catch (error) {
+            console.error(error);
+        }
     };
 
-    const handlePopularity = (event) => {
+    const handleSort = (event, sortBy) => {
         event.preventDefault();
 
-        fetch(`${API_URL}/api/products`)
+        setLoadingProductOverview(true);
+        fetch(`${API_URL}/api/products/sort?sortBy=${sortBy}`)
             .then(response => response.json())
             .then(products => {
-                // Sort products by popularity
-                const sortedProducts = [...products].sort((a, b) => b.noOfSales - a.noOfSales);
-                setProducts(sortedProducts.splice(startingSplicingIndex, endingSplicingIndex));
+                setProducts(products);
             })
-            .catch(error => console.error('Error fetching products:', error));
+            .catch(error => console.error('Error fetching products:', error))
+            .finally(() => setLoadingProductOverview(false));
     };
 
-    const handleNewness = (event) => {
+    const handlePrice = (event, lowerBound, upperBound) => {
         event.preventDefault();
 
-        fetch(`${API_URL}/api/products`)
+        setLoadingProductOverview(true);
+        fetch(`${API_URL}/api/products/price?lowerBound=${lowerBound}&upperBound=${upperBound}`)
             .then(response => response.json())
             .then(products => {
-                // Sort products by newness (assuming _id is a timestamp or similar)
-                const sortedProducts = [...products].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
-                setProducts(sortedProducts.splice(startingSplicingIndex, endingSplicingIndex));
+                setProducts(products);
             })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceAsc = (event) => {
-        event.preventDefault();
-
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Sort products by price ascending
-                const sortedProducts = [...products].sort((a, b) => a.price - b.price);
-                setProducts(sortedProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceDesc = (event) => {
-        event.preventDefault();
-
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Sort products by price descending
-                const sortedProducts = [...products].sort((a, b) => b.price - a.price);
-                setProducts(sortedProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceZeroToFifty = (event) => {
-        event.preventDefault();
-
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Filter products with price between $0 and $50
-                const filteredProducts = products.filter(product => {
-                    return product.price >= 0 && product.price <= 50
-                });
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceFiftyToHundred = (event) => {
-        event.preventDefault();
-
-        fetch(`api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Filter products with price between $50 and $100
-                const filteredProducts = products.filter(product => {
-                    return product.price > 50 && product.price <= 100
-                });
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceHundredToHundredFifty = (event) => {
-        event.preventDefault();
-
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Filter products with price between $100 and $150
-                const filteredProducts = products.filter(product => product.price > 100 && product.price <= 150);
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceHundredFiftyToTwoHundred = (event) => {
-        event.preventDefault();
-
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Filter products with price between $150 and $200
-                const filteredProducts = products.filter(product => product.price > 150 && product.price <= 200);
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
-    };
-
-    const handlePriceAboveTwoHundred = (event) => {
-        event.preventDefault();
-
-        fetch(`${API_URL}/api/products`)
-            .then(response => response.json())
-            .then(products => {
-                // Filter products with price above $200
-                const filteredProducts = products.filter(product => product.price > 200);
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
-            })
-            .catch(error => console.error('Error fetching products:', error));
+            .catch(error => console.error('Error fetching products:', error))
+            .finally(() => setLoadingProductOverview(false));
     }
 
     const handleColor = (e, color) => {
         e.preventDefault();
 
-        fetch(`${API_URL}/api/products`)
+        setLoadingProductOverview(true);
+        fetch(`${API_URL}/api/products/color?color=${color}`)
             .then(response => response.json())
             .then(products => {
-                // Filter products by color
-                const filteredProducts = products.filter(product => {
-                    return product.color.includes(color)
-                });
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
+                setProducts(products);
             })
-            .catch(error => console.error('Error fetching products:', error));
+            .catch(error => console.error('Error fetching products:', error))
+            .finally(() => setLoadingProductOverview(false));
     };
 
     const handleTag = (e, tag) => {
         e.preventDefault();
 
-        fetch(`${API_URL}/api/products`)
+        setLoadingProductOverview(true);
+        fetch(`${API_URL}/api/products/tag?tag=${tag}`)
             .then(response => response.json())
             .then(products => {
-                // Filter products by tag
-                const filteredProducts = products.filter(product => {
-                    return product.tags.includes(tag)
-                });
-                setProducts(filteredProducts.splice(startingSplicingIndex, endingSplicingIndex));
+                setProducts(products);
             })
-            .catch(error => console.error('Error fetching products:', error));
+            .catch(error => console.error('Error fetching products:', error))
+            .finally(() => setLoadingProductOverview(false));
     };
 
     const handleLoadMore = (e) => {
         e.preventDefault()
-
-        console.log(page)
 
         setLoadMore(true)
         fetch(`${API_URL}/api/products/paginate?page=${page}&limit=${limit}`)
@@ -307,28 +198,28 @@ const ProductOverview = () => {
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePopularity} href="javascript:void(0)"
+                                                <a onClick={(e) => handleSort(e,'popularityAsc')} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     Popularity
                                                 </a>
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handleNewness} href="javascript:void(0)"
+                                                <a onClick={(e) => handleSort(e,'newnessAsc')} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     Newness
                                                 </a>
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceAsc} href="javascript:void(0)"
+                                                <a onClick={(e) => handleSort(e,'priceAsc')} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     Price: Low to High
                                                 </a>
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceDesc} href="javascript:void(0)"
+                                                <a onClick={(e) => handleSort(e,'priceDesc')} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     Price: High to Low
                                                 </a>
@@ -350,28 +241,28 @@ const ProductOverview = () => {
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceZeroToFifty} href="javascript:void(0)"
+                                                <a onClick={(e) => handlePrice(e, 0, 50)} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     $0.00 - $50.00
                                                 </a>
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceFiftyToHundred} href="javascript:void(0)"
+                                                <a onClick={(e) => handlePrice(e, 50, 100)} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     $50.00 - $100.00
                                                 </a>
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceHundredToHundredFifty} href="javascript:void(0)"
+                                                <a onClick={(e) => handlePrice(e, 100, 150)} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     $100.00 - $150.00
                                                 </a>
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceHundredFiftyToTwoHundred}
+                                                <a onClick={(e) => handlePrice(e, 150, 200)}
                                                    href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     $150.00 - $200.00
@@ -379,7 +270,7 @@ const ProductOverview = () => {
                                             </li>
 
                                             <li className="p-b-6">
-                                                <a onClick={handlePriceAboveTwoHundred} href="javascript:void(0)"
+                                                <a onClick={(e) => handlePrice(e, 200, -1)} href="javascript:void(0)"
                                                    className="filter-link stext-106 trans-04">
                                                     $200.00+
                                                 </a>
@@ -468,33 +359,33 @@ const ProductOverview = () => {
 
                                         <div className="flex-w p-t-4 m-r--5">
                                             <a href="javascript:void(0)"
-                                               onClick={(e) => handleTag(e, "fashion")}
+                                               onClick={(e) => handleTag(e, "oriental")}
                                                className="btn btn-sm btn-primary m-1">
-                                                Fashion
+                                                oriental
                                             </a>
 
                                             <a href="javascript:void(0)"
-                                               onClick={(e) => handleTag(e, "lifestyle")}
+                                               onClick={(e) => handleTag(e, "refined")}
                                                className="btn btn-sm btn-primary m-1">
-                                                Lifestyle
+                                                refined
                                             </a>
 
                                             <a href="javascript:void(0)"
-                                               onClick={(e) => handleTag(e, "denim")}
+                                               onClick={(e) => handleTag(e, "electronic")}
                                                className="btn btn-sm btn-primary m-1">
-                                                Denim
+                                                electronic
                                             </a>
 
                                             <a href="javascript:void(0)"
-                                               onClick={(e) => handleTag(e, "streetstyle")}
+                                               onClick={(e) => handleTag(e, "unbranded")}
                                                className="btn btn-sm btn-primary m-1">
-                                                Streetstyle
+                                                unbranded
                                             </a>
 
                                             <a href="javascript:void(0)"
-                                               onClick={(e) => handleTag(e, "crafts")}
+                                               onClick={(e) => handleTag(e, "handcrafted")}
                                                className="btn btn-sm btn-primary m-1">
-                                                Crafts
+                                                handcrafted
                                             </a>
                                         </div>
                                     </div>
