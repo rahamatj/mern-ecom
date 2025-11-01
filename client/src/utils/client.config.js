@@ -1,10 +1,10 @@
-const mode = "dev";
+const mode = "prod";
 
 function config() {
     let cfg = []
 
     cfg["dev"] = {
-        API_URL: `http://localhost:3001`,
+        API_URL: "http://localhost:3001",
     }
 
     cfg["prod"] = {
