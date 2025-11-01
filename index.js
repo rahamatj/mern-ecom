@@ -12,7 +12,7 @@ app.use(express.json());
 // Content Security Policy middleware
 app.use((req, res, next) => {
     res.setHeader("Content-Security-Policy",
-        "default-src 'self'; connect-src 'self' https://api.example.com;"
+        "default-src 'self'; connect-src 'self' https://localhost:3001;"
     );
     next();
 });
@@ -20,7 +20,8 @@ app.use((req, res, next) => {
 const PORT = 3001;
 
 // Local MongoDB connection URL
-const MONGO_URI = "mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom";
+// const MONGO_URI = "mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom";
+const MONGO_URI = "mongodb://127.0.0.1:27017/ecom";
 
 // Root route
 app.get('/', (req, res) => {
