@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
 import { faker } from '@faker-js/faker';
 import Product from '../models/Product.js';
-import serverConfig from "../utils/server.config.js";
+import config from "../utils/server.config.js";
 
-const MONGO_URI = serverConfig().MONGO_URI;
+const MONGO_URI = config().MONGO_URI;
 
 const seedProducts = async (count = 100) => {
     try {
