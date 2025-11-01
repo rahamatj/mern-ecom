@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
 import { faker } from '@faker-js/faker';
-import Product from '../models/Product.js'; // your Product schema
+import Product from '../models/Product.js';
+import serverConfig from "../utils/server.config.js";
 
-const MONGO_URI="mongodb+srv://rahamatj:162002025@ecom.m8h6nnq.mongodb.net/?appName=ecom"
-// const MONGO_URI = 'mongodb://localhost:27017/ecom'
+const MONGO_URI = serverConfig().MONGO_URI;
 
 const seedProducts = async (count = 100) => {
     try {
@@ -14,6 +14,8 @@ const seedProducts = async (count = 100) => {
         await Product.deleteMany({});
         console.log('🧹 Cleared existing products');
 
+        const tags = ['oriental', 'unbranded', 'electronic'];
+
         // Generate fake products
         const products = Array.from({ length: count }).map(() => ({
             name: faker.commerce.productName(),
@@ -23,7 +25,7 @@ const seedProducts = async (count = 100) => {
             inStock: faker.datatype.boolean(),
             noOfSales: faker.number.int({ min: 0, max: 1000 }),
             color: Array.from({ length: faker.number.int({ min: 1, max: 3 }) }, () => faker.color.human()),
-            tags: Array.from({ length: faker.number.int({ min: 2, max: 5 }) }, () => faker.commerce.productAdjective()),
+            tags: tags[Math.floor(Math.random() * tags.length)],
         }));
 
         await Product.insertMany(products);
