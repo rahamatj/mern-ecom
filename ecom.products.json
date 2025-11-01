@@ -1,0 +1,2759 @@
+[{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb63"
+  },
+  "name": "Intelligent Silk Cheese",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 104.79,
+  "description": "The maroon Cheese combines France aesthetics with Chromium-based durability",
+  "inStock": false,
+  "noOfSales": 83,
+  "color": [
+    "azure",
+    "azure"
+  ],
+  "tags": [
+    "oriental",
+    "unbranded"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.751Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.751Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb64"
+  },
+  "name": "Luxurious Gold Shoes",
+  "image": "/frontend/images/product-14.jpg",
+  "price": 277.85,
+  "description": "Discover the giraffe-like agility of our Computer, perfect for emotional users",
+  "inStock": true,
+  "noOfSales": 28,
+  "color": [
+    "pink",
+    "tan",
+    "orange"
+  ],
+  "tags": [
+    "electronic",
+    "bespoke",
+    "bespoke"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb65"
+  },
+  "name": "Fantastic Aluminum Car",
+  "image": "/frontend/images/product-14.jpg",
+  "price": 425.29,
+  "description": "Stylish Fish designed to make you stand out with innocent looks",
+  "inStock": true,
+  "noOfSales": 761,
+  "color": [
+    "silver",
+    "turquoise"
+  ],
+  "tags": [
+    "generic",
+    "tasty"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb66"
+  },
+  "name": "Small Marble Table",
+  "image": "/frontend/images/product-8.jpg",
+  "price": 131.39,
+  "description": "Stylish Bacon designed to make you stand out with untried looks",
+  "inStock": true,
+  "noOfSales": 938,
+  "color": [
+    "olive",
+    "pink"
+  ],
+  "tags": [
+    "frozen",
+    "recycled",
+    "rustic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb67"
+  },
+  "name": "Elegant Bamboo Soap",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 471.39,
+  "description": "Cronin, Torp and Corwin's most advanced Shirt technology increases weird capabilities",
+  "inStock": false,
+  "noOfSales": 604,
+  "color": [
+    "maroon",
+    "turquoise",
+    "purple"
+  ],
+  "tags": [
+    "sleek",
+    "soft",
+    "awesome",
+    "generic",
+    "generic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb68"
+  },
+  "name": "Frozen Rubber Bike",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 152.19,
+  "description": "Featuring Calcium-enhanced technology, our Computer offers unparalleled normal performance",
+  "inStock": true,
+  "noOfSales": 749,
+  "color": [
+    "lime",
+    "azure"
+  ],
+  "tags": [
+    "electronic",
+    "awesome",
+    "luxurious",
+    "intelligent"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb69"
+  },
+  "name": "Incredible Ceramic Soap",
+  "image": "/frontend/images/product-4.jpg",
+  "price": 473.99,
+  "description": "The sleek and distant Towels comes with cyan LED lighting for smart functionality",
+  "inStock": false,
+  "noOfSales": 579,
+  "color": [
+    "olive"
+  ],
+  "tags": [
+    "refined",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb6a"
+  },
+  "name": "Intelligent Bamboo Bike",
+  "image": "/frontend/images/product-4.jpg",
+  "price": 394.55,
+  "description": "Featuring Tantalum-enhanced technology, our Shirt offers unparalleled sticky performance",
+  "inStock": true,
+  "noOfSales": 425,
+  "color": [
+    "sky blue"
+  ],
+  "tags": [
+    "oriental",
+    "licensed",
+    "oriental",
+    "frozen",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb6b"
+  },
+  "name": "Licensed Aluminum Table",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 32.79,
+  "description": "Stylish Tuna designed to make you stand out with other looks",
+  "inStock": true,
+  "noOfSales": 367,
+  "color": [
+    "orange"
+  ],
+  "tags": [
+    "bespoke",
+    "oriental",
+    "small"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb6c"
+  },
+  "name": "Ergonomic Plastic Pants",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 57.11,
+  "description": "The silver Shirt combines Chile aesthetics with Nihonium-based durability",
+  "inStock": true,
+  "noOfSales": 761,
+  "color": [
+    "grey"
+  ],
+  "tags": [
+    "small",
+    "soft",
+    "intelligent",
+    "sleek"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb6d"
+  },
+  "name": "Modern Concrete Chicken",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 378.4,
+  "description": "The Nora Tuna is the latest in a series of major products from Hintz, Wuckert and Prosacco",
+  "inStock": false,
+  "noOfSales": 353,
+  "color": [
+    "white",
+    "grey"
+  ],
+  "tags": [
+    "modern",
+    "soft",
+    "generic",
+    "refined",
+    "luxurious"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb6e"
+  },
+  "name": "Soft Ceramic Hat",
+  "image": "/frontend/images/product-16.jpg",
+  "price": 129.21,
+  "description": "The Devolved demand-driven model Car offers reliable performance and forceful design",
+  "inStock": false,
+  "noOfSales": 14,
+  "color": [
+    "pink"
+  ],
+  "tags": [
+    "tasty",
+    "practical",
+    "luxurious"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb6f"
+  },
+  "name": "Practical Aluminum Cheese",
+  "image": "/frontend/images/product-8.jpg",
+  "price": 173.29,
+  "description": "The sleek and pointed Fish comes with plum LED lighting for smart functionality",
+  "inStock": true,
+  "noOfSales": 489,
+  "color": [
+    "indigo",
+    "pink",
+    "blue"
+  ],
+  "tags": [
+    "oriental",
+    "elegant",
+    "incredible",
+    "practical",
+    "generic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb70"
+  },
+  "name": "Luxurious Steel Shoes",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 461.45,
+  "description": "New teal Fish with ergonomic design for accurate comfort",
+  "inStock": false,
+  "noOfSales": 345,
+  "color": [
+    "turquoise"
+  ],
+  "tags": [
+    "intelligent",
+    "sleek"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb71"
+  },
+  "name": "Fantastic Metal Car",
+  "image": "/frontend/images/product-11.jpg",
+  "price": 66.65,
+  "description": "Our tender-inspired Computer brings a taste of luxury to your tiny lifestyle",
+  "inStock": false,
+  "noOfSales": 574,
+  "color": [
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "small",
+    "bespoke",
+    "licensed",
+    "licensed"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb72"
+  },
+  "name": "Modern Cotton Table",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 189.09,
+  "description": "Professional-grade Tuna perfect for glum training and recreational use",
+  "inStock": true,
+  "noOfSales": 402,
+  "color": [
+    "tan",
+    "turquoise",
+    "plum"
+  ],
+  "tags": [
+    "incredible",
+    "generic",
+    "fantastic",
+    "awesome",
+    "rustic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb73"
+  },
+  "name": "Licensed Bronze Fish",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 34.09,
+  "description": "Introducing the Slovakia-inspired Soap, blending polished style with local craftsmanship",
+  "inStock": false,
+  "noOfSales": 235,
+  "color": [
+    "violet"
+  ],
+  "tags": [
+    "small",
+    "fresh",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb74"
+  },
+  "name": "Luxurious Metal Bacon",
+  "image": "/frontend/images/product-12.jpg",
+  "price": 34.15,
+  "description": "The Candice Chips is the latest in a series of proud products from Schroeder - Rippin",
+  "inStock": true,
+  "noOfSales": 822,
+  "color": [
+    "purple",
+    "magenta",
+    "blue"
+  ],
+  "tags": [
+    "luxurious",
+    "bespoke"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb75"
+  },
+  "name": "Licensed Ceramic Mouse",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 260.19,
+  "description": "Experience the mint green brilliance of our Chips, perfect for harmful environments",
+  "inStock": false,
+  "noOfSales": 110,
+  "color": [
+    "green",
+    "cyan",
+    "tan"
+  ],
+  "tags": [
+    "refined",
+    "oriental",
+    "frozen"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb76"
+  },
+  "name": "Awesome Ceramic Bike",
+  "image": "/frontend/images/product-1.jpg",
+  "price": 421.95,
+  "description": "Our delicious-inspired Cheese brings a taste of luxury to your wretched lifestyle",
+  "inStock": false,
+  "noOfSales": 846,
+  "color": [
+    "maroon"
+  ],
+  "tags": [
+    "practical",
+    "incredible"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb77"
+  },
+  "name": "Fantastic Bronze Salad",
+  "image": "/frontend/images/product-4.jpg",
+  "price": 448.29,
+  "description": "Weber Inc's most advanced Ball technology increases filthy capabilities",
+  "inStock": true,
+  "noOfSales": 374,
+  "color": [
+    "black"
+  ],
+  "tags": [
+    "intelligent",
+    "practical",
+    "ergonomic",
+    "small",
+    "incredible"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb78"
+  },
+  "name": "Fantastic Plastic Ball",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 25.15,
+  "description": "New black Fish with ergonomic design for happy comfort",
+  "inStock": true,
+  "noOfSales": 24,
+  "color": [
+    "lime",
+    "teal"
+  ],
+  "tags": [
+    "practical",
+    "gorgeous",
+    "small"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb79"
+  },
+  "name": "Luxurious Wooden Ball",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 16.26,
+  "description": "Stylish Keyboard designed to make you stand out with silky looks",
+  "inStock": true,
+  "noOfSales": 199,
+  "color": [
+    "mint green"
+  ],
+  "tags": [
+    "refined",
+    "intelligent",
+    "awesome"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb7a"
+  },
+  "name": "Electronic Granite Keyboard",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 108.89,
+  "description": "Stylish Chicken designed to make you stand out with homely looks",
+  "inStock": true,
+  "noOfSales": 238,
+  "color": [
+    "red",
+    "orchid"
+  ],
+  "tags": [
+    "fresh",
+    "soft",
+    "awesome",
+    "ergonomic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb7b"
+  },
+  "name": "Luxurious Wooden Sausages",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 30.75,
+  "description": "The Hilton Bacon is the latest in a series of personal products from Littel - Jones",
+  "inStock": false,
+  "noOfSales": 614,
+  "color": [
+    "magenta",
+    "white",
+    "lavender"
+  ],
+  "tags": [
+    "awesome",
+    "small",
+    "bespoke",
+    "generic",
+    "intelligent"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb7c"
+  },
+  "name": "Elegant Granite Mouse",
+  "image": "/frontend/images/product-14.jpg",
+  "price": 177.25,
+  "description": "Small Chair designed with Bronze for twin performance",
+  "inStock": true,
+  "noOfSales": 541,
+  "color": [
+    "plum",
+    "magenta",
+    "gold"
+  ],
+  "tags": [
+    "refined",
+    "tasty",
+    "licensed",
+    "incredible"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb7d"
+  },
+  "name": "Recycled Gold Soap",
+  "image": "/frontend/images/product-8.jpg",
+  "price": 402.79,
+  "description": "Discover the giraffe-like agility of our Hat, perfect for soggy users",
+  "inStock": true,
+  "noOfSales": 32,
+  "color": [
+    "turquoise",
+    "red"
+  ],
+  "tags": [
+    "sleek",
+    "frozen"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb7e"
+  },
+  "name": "Electronic Aluminum Mouse",
+  "image": "/frontend/images/product-3.jpg",
+  "price": 470.89,
+  "description": "Refined Shirt designed with Bamboo for stylish performance",
+  "inStock": false,
+  "noOfSales": 156,
+  "color": [
+    "red"
+  ],
+  "tags": [
+    "intelligent",
+    "bespoke"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb7f"
+  },
+  "name": "Rustic Steel Tuna",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 336.59,
+  "description": "Discover the strange new Ball with an exciting mix of Silk ingredients",
+  "inStock": true,
+  "noOfSales": 744,
+  "color": [
+    "yellow",
+    "pink"
+  ],
+  "tags": [
+    "handcrafted",
+    "elegant",
+    "licensed",
+    "frozen",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb80"
+  },
+  "name": "Practical Rubber Ball",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 309.69,
+  "description": "Vandervort - Pouros's most advanced Table technology increases scientific capabilities",
+  "inStock": false,
+  "noOfSales": 359,
+  "color": [
+    "fuchsia"
+  ],
+  "tags": [
+    "handcrafted",
+    "recycled",
+    "soft"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb81"
+  },
+  "name": "Oriental Steel Computer",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 258.39,
+  "description": "Our panda-friendly Ball ensures menacing comfort for your pets",
+  "inStock": false,
+  "noOfSales": 545,
+  "color": [
+    "yellow",
+    "magenta",
+    "maroon"
+  ],
+  "tags": [
+    "fresh",
+    "soft",
+    "handmade",
+    "handcrafted",
+    "licensed"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb82"
+  },
+  "name": "Frozen Metal Cheese",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 190.49,
+  "description": "Experience the orange brilliance of our Bike, perfect for content environments",
+  "inStock": false,
+  "noOfSales": 102,
+  "color": [
+    "orange",
+    "salmon"
+  ],
+  "tags": [
+    "recycled",
+    "soft",
+    "fantastic",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb83"
+  },
+  "name": "Fresh Concrete Pizza",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 17.45,
+  "description": "New tan Gloves with ergonomic design for hard-to-find comfort",
+  "inStock": false,
+  "noOfSales": 925,
+  "color": [
+    "yellow",
+    "violet"
+  ],
+  "tags": [
+    "unbranded",
+    "rustic",
+    "elegant",
+    "tasty",
+    "electronic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb84"
+  },
+  "name": "Sleek Silk Mouse",
+  "image": "/frontend/images/product-15.jpg",
+  "price": 63.85,
+  "description": "Incredible Shirt designed with Ceramic for classic performance",
+  "inStock": true,
+  "noOfSales": 419,
+  "color": [
+    "fuchsia",
+    "green"
+  ],
+  "tags": [
+    "sleek",
+    "handcrafted",
+    "gorgeous",
+    "tasty",
+    "incredible"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb85"
+  },
+  "name": "Refined Silk Fish",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 330.19,
+  "description": "Our crunchy-inspired Computer brings a taste of luxury to your dazzling lifestyle",
+  "inStock": false,
+  "noOfSales": 863,
+  "color": [
+    "purple",
+    "olive",
+    "indigo"
+  ],
+  "tags": [
+    "frozen",
+    "frozen"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb86"
+  },
+  "name": "Bespoke Plastic Car",
+  "image": "/frontend/images/product-12.jpg",
+  "price": 415.15,
+  "description": "New Fish model with 30 GB RAM, 96 GB storage, and woeful features",
+  "inStock": false,
+  "noOfSales": 362,
+  "color": [
+    "sky blue",
+    "gold",
+    "magenta"
+  ],
+  "tags": [
+    "handmade",
+    "intelligent",
+    "oriental"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb87"
+  },
+  "name": "Licensed Cotton Table",
+  "image": "/frontend/images/product-16.jpg",
+  "price": 23.69,
+  "description": "The magenta Pizza combines Palau aesthetics with Strontium-based durability",
+  "inStock": true,
+  "noOfSales": 488,
+  "color": [
+    "mint green"
+  ],
+  "tags": [
+    "awesome",
+    "elegant",
+    "electronic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb88"
+  },
+  "name": "Elegant Concrete Hat",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 195.15,
+  "description": "Introducing the Algeria-inspired Bacon, blending uniform style with local craftsmanship",
+  "inStock": false,
+  "noOfSales": 415,
+  "color": [
+    "salmon",
+    "mint green"
+  ],
+  "tags": [
+    "recycled",
+    "elegant",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb89"
+  },
+  "name": "Rustic Concrete Bike",
+  "image": "/frontend/images/product-14.jpg",
+  "price": 384.19,
+  "description": "The Extended logistical structure Mouse offers reliable performance and rare design",
+  "inStock": true,
+  "noOfSales": 248,
+  "color": [
+    "purple",
+    "azure",
+    "teal"
+  ],
+  "tags": [
+    "handmade",
+    "rustic",
+    "bespoke",
+    "rustic",
+    "sleek"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb8a"
+  },
+  "name": "Rustic Rubber Ball",
+  "image": "/frontend/images/product-11.jpg",
+  "price": 421.95,
+  "description": "The sleek and slow Mouse comes with black LED lighting for smart functionality",
+  "inStock": true,
+  "noOfSales": 612,
+  "color": [
+    "magenta"
+  ],
+  "tags": [
+    "refined",
+    "awesome"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb8b"
+  },
+  "name": "Electronic Rubber Fish",
+  "image": "/frontend/images/product-10.jpg",
+  "price": 492.1,
+  "description": "Stylish Shoes designed to make you stand out with lovely looks",
+  "inStock": true,
+  "noOfSales": 303,
+  "color": [
+    "silver"
+  ],
+  "tags": [
+    "small",
+    "electronic",
+    "small",
+    "fresh"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb8c"
+  },
+  "name": "Handmade Ceramic Tuna",
+  "image": "/frontend/images/product-3.jpg",
+  "price": 378.8,
+  "description": "Introducing the Latvia-inspired Bacon, blending wasteful style with local craftsmanship",
+  "inStock": true,
+  "noOfSales": 508,
+  "color": [
+    "lavender",
+    "green",
+    "lavender"
+  ],
+  "tags": [
+    "awesome",
+    "fantastic",
+    "oriental",
+    "tasty"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb8d"
+  },
+  "name": "Generic Granite Shoes",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 137.1,
+  "description": "Our crunchy-inspired Car brings a taste of luxury to your shadowy lifestyle",
+  "inStock": false,
+  "noOfSales": 120,
+  "color": [
+    "orange",
+    "purple",
+    "ivory"
+  ],
+  "tags": [
+    "fantastic",
+    "recycled",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb8e"
+  },
+  "name": "Licensed Rubber Mouse",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 453.49,
+  "description": "Homenick - Gottlieb's most advanced Ball technology increases instructive capabilities",
+  "inStock": false,
+  "noOfSales": 11,
+  "color": [
+    "black"
+  ],
+  "tags": [
+    "electronic",
+    "generic",
+    "handmade"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb8f"
+  },
+  "name": "Fresh Ceramic Chair",
+  "image": "/frontend/images/product-1.jpg",
+  "price": 362.89,
+  "description": "Introducing the Uruguay-inspired Ball, blending aged style with local craftsmanship",
+  "inStock": true,
+  "noOfSales": 207,
+  "color": [
+    "grey"
+  ],
+  "tags": [
+    "elegant",
+    "modern",
+    "frozen"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb90"
+  },
+  "name": "Generic Marble Hat",
+  "image": "/frontend/images/product-10.jpg",
+  "price": 283.33,
+  "description": "Stylish Car designed to make you stand out with joyful looks",
+  "inStock": true,
+  "noOfSales": 329,
+  "color": [
+    "black",
+    "violet"
+  ],
+  "tags": [
+    "handcrafted",
+    "intelligent",
+    "oriental",
+    "ergonomic",
+    "handmade"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb91"
+  },
+  "name": "Practical Cotton Chicken",
+  "image": "/frontend/images/product-12.jpg",
+  "price": 35.79,
+  "description": "Professional-grade Cheese perfect for wee training and recreational use",
+  "inStock": false,
+  "noOfSales": 297,
+  "color": [
+    "yellow",
+    "green"
+  ],
+  "tags": [
+    "sleek",
+    "handmade",
+    "small",
+    "electronic",
+    "unbranded"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb92"
+  },
+  "name": "Fresh Gold Fish",
+  "image": "/frontend/images/product-3.jpg",
+  "price": 27.89,
+  "description": "The olive Chicken combines Tokelau aesthetics with Promethium-based durability",
+  "inStock": true,
+  "noOfSales": 92,
+  "color": [
+    "fuchsia",
+    "turquoise"
+  ],
+  "tags": [
+    "recycled",
+    "practical",
+    "generic",
+    "ergonomic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb93"
+  },
+  "name": "Elegant Marble Cheese",
+  "image": "/frontend/images/product-1.jpg",
+  "price": 66.2,
+  "description": "The sleek and soggy Shoes comes with salmon LED lighting for smart functionality",
+  "inStock": true,
+  "noOfSales": 848,
+  "color": [
+    "teal",
+    "tan",
+    "white"
+  ],
+  "tags": [
+    "handcrafted",
+    "gorgeous",
+    "practical",
+    "frozen"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb94"
+  },
+  "name": "Rustic Bronze Salad",
+  "image": "/frontend/images/product-12.jpg",
+  "price": 490.05,
+  "description": "Our monkey-friendly Table ensures trusty comfort for your pets",
+  "inStock": false,
+  "noOfSales": 90,
+  "color": [
+    "violet",
+    "mint green"
+  ],
+  "tags": [
+    "rustic",
+    "gorgeous",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb95"
+  },
+  "name": "Incredible Aluminum Bacon",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 490.75,
+  "description": "Our snake-friendly Bacon ensures frightened comfort for your pets",
+  "inStock": false,
+  "noOfSales": 892,
+  "color": [
+    "blue"
+  ],
+  "tags": [
+    "unbranded",
+    "gorgeous",
+    "licensed",
+    "small",
+    "frozen"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb96"
+  },
+  "name": "Generic Bronze Chair",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 208.57,
+  "description": "Upton, Haley and Lehner's most advanced Tuna technology increases acidic capabilities",
+  "inStock": false,
+  "noOfSales": 871,
+  "color": [
+    "turquoise",
+    "sky blue",
+    "plum"
+  ],
+  "tags": [
+    "rustic",
+    "handcrafted",
+    "fresh",
+    "refined",
+    "gorgeous"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb97"
+  },
+  "name": "Bespoke Silk Tuna",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 39.4,
+  "description": "New plum Gloves with ergonomic design for smug comfort",
+  "inStock": false,
+  "noOfSales": 139,
+  "color": [
+    "fuchsia"
+  ],
+  "tags": [
+    "luxurious",
+    "modern",
+    "luxurious",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb98"
+  },
+  "name": "Electronic Bronze Tuna",
+  "image": "/frontend/images/product-10.jpg",
+  "price": 427.99,
+  "description": "Our snake-friendly Bacon ensures neglected comfort for your pets",
+  "inStock": false,
+  "noOfSales": 6,
+  "color": [
+    "yellow",
+    "sky blue",
+    "indigo"
+  ],
+  "tags": [
+    "soft",
+    "handcrafted",
+    "electronic",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb99"
+  },
+  "name": "Unbranded Metal Bike",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 158.7,
+  "description": "Experience the lime brilliance of our Towels, perfect for sugary environments",
+  "inStock": true,
+  "noOfSales": 307,
+  "color": [
+    "silver",
+    "gold"
+  ],
+  "tags": [
+    "soft",
+    "ergonomic",
+    "soft"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb9a"
+  },
+  "name": "Tasty Bamboo Shoes",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 308.7,
+  "description": "Discover the fox-like agility of our Ball, perfect for inexperienced users",
+  "inStock": false,
+  "noOfSales": 706,
+  "color": [
+    "lime",
+    "fuchsia",
+    "tan"
+  ],
+  "tags": [
+    "handcrafted",
+    "luxurious",
+    "tasty",
+    "generic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb9b"
+  },
+  "name": "Sleek Metal Pizza",
+  "image": "/frontend/images/product-15.jpg",
+  "price": 498.19,
+  "description": "Featuring Mercury-enhanced technology, our Keyboard offers unparalleled honored performance",
+  "inStock": false,
+  "noOfSales": 217,
+  "color": [
+    "indigo",
+    "violet"
+  ],
+  "tags": [
+    "licensed",
+    "frozen",
+    "oriental",
+    "ergonomic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb9c"
+  },
+  "name": "Recycled Cotton Mouse",
+  "image": "/frontend/images/product-16.jpg",
+  "price": 428.85,
+  "description": "Savor the crispy essence in our Towels, designed for snarling culinary adventures",
+  "inStock": true,
+  "noOfSales": 90,
+  "color": [
+    "silver",
+    "yellow"
+  ],
+  "tags": [
+    "incredible",
+    "incredible",
+    "oriental"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb9d"
+  },
+  "name": "Elegant Rubber Pants",
+  "image": "/frontend/images/product-15.jpg",
+  "price": 363.85,
+  "description": "Our tangy-inspired Soap brings a taste of luxury to your lasting lifestyle",
+  "inStock": true,
+  "noOfSales": 613,
+  "color": [
+    "green",
+    "azure"
+  ],
+  "tags": [
+    "incredible",
+    "elegant",
+    "small",
+    "gorgeous"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb9e"
+  },
+  "name": "Unbranded Steel Pants",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 166.29,
+  "description": "The Immersive intermediate instruction set Fish offers reliable performance and equatorial design",
+  "inStock": true,
+  "noOfSales": 408,
+  "color": [
+    "salmon",
+    "lime"
+  ],
+  "tags": [
+    "awesome",
+    "ergonomic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fb9f"
+  },
+  "name": "Rustic Metal Sausages",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 192.75,
+  "description": "Professional-grade Mouse perfect for complicated training and recreational use",
+  "inStock": false,
+  "noOfSales": 861,
+  "color": [
+    "plum",
+    "grey",
+    "green"
+  ],
+  "tags": [
+    "small",
+    "gorgeous"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba0"
+  },
+  "name": "Refined Ceramic Fish",
+  "image": "/frontend/images/product-14.jpg",
+  "price": 120.19,
+  "description": "The pink Table combines Netherlands aesthetics with Gold-based durability",
+  "inStock": true,
+  "noOfSales": 511,
+  "color": [
+    "orchid"
+  ],
+  "tags": [
+    "fantastic",
+    "ergonomic",
+    "bespoke",
+    "recycled",
+    "rustic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba1"
+  },
+  "name": "Soft Plastic Chicken",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 474.35,
+  "description": "Professional-grade Cheese perfect for excited training and recreational use",
+  "inStock": false,
+  "noOfSales": 980,
+  "color": [
+    "ivory",
+    "lavender"
+  ],
+  "tags": [
+    "unbranded",
+    "recycled",
+    "sleek",
+    "handmade"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba2"
+  },
+  "name": "Frozen Plastic Car",
+  "image": "/frontend/images/product-5.jpg",
+  "price": 294.69,
+  "description": "New yellow Pants with ergonomic design for multicolored comfort",
+  "inStock": true,
+  "noOfSales": 490,
+  "color": [
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "refined",
+    "tasty"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba3"
+  },
+  "name": "Refined Cotton Bacon",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 24.25,
+  "description": "Sauer - Hyatt's most advanced Computer technology increases determined capabilities",
+  "inStock": false,
+  "noOfSales": 108,
+  "color": [
+    "purple",
+    "purple"
+  ],
+  "tags": [
+    "elegant",
+    "recycled",
+    "intelligent"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba4"
+  },
+  "name": "Handmade Granite Bacon",
+  "image": "/frontend/images/product-1.jpg",
+  "price": 102.89,
+  "description": "Innovative Gloves featuring talkative technology and Aluminum construction",
+  "inStock": true,
+  "noOfSales": 224,
+  "color": [
+    "ivory",
+    "cyan"
+  ],
+  "tags": [
+    "gorgeous",
+    "ergonomic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba5"
+  },
+  "name": "Gorgeous Steel Pizza",
+  "image": "/frontend/images/product-14.jpg",
+  "price": 472.69,
+  "description": "The Innovative methodical focus group Pants offers reliable performance and babyish design",
+  "inStock": true,
+  "noOfSales": 9,
+  "color": [
+    "lavender",
+    "white"
+  ],
+  "tags": [
+    "electronic",
+    "bespoke",
+    "unbranded",
+    "handcrafted"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba6"
+  },
+  "name": "Fantastic Marble Table",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 253.35,
+  "description": "Introducing the Hong Kong-inspired Shoes, blending snoopy style with local craftsmanship",
+  "inStock": true,
+  "noOfSales": 677,
+  "color": [
+    "silver",
+    "grey",
+    "indigo"
+  ],
+  "tags": [
+    "recycled",
+    "oriental",
+    "rustic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba7"
+  },
+  "name": "Unbranded Plastic Soap",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 305.39,
+  "description": "Our spicy-inspired Bacon brings a taste of luxury to your gleaming lifestyle",
+  "inStock": false,
+  "noOfSales": 428,
+  "color": [
+    "black",
+    "purple",
+    "pink"
+  ],
+  "tags": [
+    "oriental",
+    "fantastic",
+    "electronic",
+    "electronic",
+    "modern"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba8"
+  },
+  "name": "Practical Cotton Table",
+  "image": "/frontend/images/product-12.jpg",
+  "price": 387.99,
+  "description": "Zboncak and Sons's most advanced Salad technology increases wobbly capabilities",
+  "inStock": true,
+  "noOfSales": 255,
+  "color": [
+    "green",
+    "indigo",
+    "sky blue"
+  ],
+  "tags": [
+    "modern",
+    "intelligent",
+    "sleek",
+    "practical"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fba9"
+  },
+  "name": "Incredible Gold Tuna",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 139.25,
+  "description": "Discover the peacock-like agility of our Bike, perfect for salty users",
+  "inStock": false,
+  "noOfSales": 349,
+  "color": [
+    "black"
+  ],
+  "tags": [
+    "fantastic",
+    "fresh",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbaa"
+  },
+  "name": "Modern Aluminum Pants",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 33.29,
+  "description": "New Chips model with 54 GB RAM, 559 GB storage, and warlike features",
+  "inStock": false,
+  "noOfSales": 121,
+  "color": [
+    "maroon",
+    "violet",
+    "lavender"
+  ],
+  "tags": [
+    "rustic",
+    "luxurious",
+    "modern",
+    "handcrafted"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbab"
+  },
+  "name": "Gorgeous Plastic Chips",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 384.05,
+  "description": "The Multi-tiered tertiary strategy Fish offers reliable performance and round design",
+  "inStock": false,
+  "noOfSales": 530,
+  "color": [
+    "cyan",
+    "fuchsia"
+  ],
+  "tags": [
+    "tasty",
+    "elegant",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbac"
+  },
+  "name": "Luxurious Ceramic Keyboard",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 237.35,
+  "description": "The sleek and menacing Sausages comes with turquoise LED lighting for smart functionality",
+  "inStock": false,
+  "noOfSales": 872,
+  "color": [
+    "lavender",
+    "tan"
+  ],
+  "tags": [
+    "unbranded",
+    "frozen",
+    "small",
+    "licensed"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbad"
+  },
+  "name": "Rustic Cotton Chips",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 424.69,
+  "description": "Our fresh-inspired Mouse brings a taste of luxury to your all lifestyle",
+  "inStock": false,
+  "noOfSales": 31,
+  "color": [
+    "grey"
+  ],
+  "tags": [
+    "electronic",
+    "sleek",
+    "fantastic",
+    "practical"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbae"
+  },
+  "name": "Licensed Bamboo Tuna",
+  "image": "/frontend/images/product-4.jpg",
+  "price": 58.49,
+  "description": "Experience the mint green brilliance of our Ball, perfect for edible environments",
+  "inStock": true,
+  "noOfSales": 2,
+  "color": [
+    "sky blue",
+    "indigo",
+    "indigo"
+  ],
+  "tags": [
+    "bespoke",
+    "rustic",
+    "refined",
+    "intelligent"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbaf"
+  },
+  "name": "Sleek Gold Salad",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 368.18,
+  "description": "Professional-grade Gloves perfect for downright training and recreational use",
+  "inStock": true,
+  "noOfSales": 123,
+  "color": [
+    "tan",
+    "purple",
+    "yellow"
+  ],
+  "tags": [
+    "fresh",
+    "ergonomic",
+    "electronic",
+    "fantastic",
+    "rustic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb0"
+  },
+  "name": "Recycled Cotton Computer",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 270.55,
+  "description": "Innovative Ball featuring unaware technology and Bamboo construction",
+  "inStock": true,
+  "noOfSales": 41,
+  "color": [
+    "cyan",
+    "turquoise"
+  ],
+  "tags": [
+    "gorgeous",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb1"
+  },
+  "name": "Handmade Ceramic Mouse",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 64.49,
+  "description": "Discover the enraged new Salad with an exciting mix of Aluminum ingredients",
+  "inStock": true,
+  "noOfSales": 522,
+  "color": [
+    "lavender",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "soft",
+    "sleek",
+    "awesome"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb2"
+  },
+  "name": "Fantastic Silk Hat",
+  "image": "/frontend/images/product-15.jpg",
+  "price": 318.75,
+  "description": "Discover the snake-like agility of our Keyboard, perfect for tender users",
+  "inStock": false,
+  "noOfSales": 453,
+  "color": [
+    "teal"
+  ],
+  "tags": [
+    "unbranded",
+    "incredible",
+    "unbranded",
+    "generic",
+    "fantastic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb3"
+  },
+  "name": "Generic Metal Shirt",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 50.19,
+  "description": "The pink Soap combines Netherlands aesthetics with Silver-based durability",
+  "inStock": true,
+  "noOfSales": 175,
+  "color": [
+    "teal",
+    "orchid"
+  ],
+  "tags": [
+    "practical",
+    "unbranded",
+    "bespoke"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb4"
+  },
+  "name": "Frozen Plastic Chicken",
+  "image": "/frontend/images/product-10.jpg",
+  "price": 175.64,
+  "description": "Innovative Soap featuring necessary technology and Bronze construction",
+  "inStock": true,
+  "noOfSales": 515,
+  "color": [
+    "mint green",
+    "pink",
+    "red"
+  ],
+  "tags": [
+    "sleek",
+    "frozen",
+    "modern",
+    "ergonomic",
+    "small"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb5"
+  },
+  "name": "Fresh Gold Tuna",
+  "image": "/frontend/images/product-3.jpg",
+  "price": 264.35,
+  "description": "The yellow Tuna combines Kyrgyz Republic aesthetics with Magnesium-based durability",
+  "inStock": true,
+  "noOfSales": 243,
+  "color": [
+    "violet"
+  ],
+  "tags": [
+    "modern",
+    "small",
+    "generic",
+    "practical",
+    "rustic"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb6"
+  },
+  "name": "Handcrafted Bronze Chicken",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 237.05,
+  "description": "Tasty Fish designed with Bronze for talkative performance",
+  "inStock": true,
+  "noOfSales": 551,
+  "color": [
+    "indigo"
+  ],
+  "tags": [
+    "frozen",
+    "handmade",
+    "incredible",
+    "fantastic",
+    "handmade"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb7"
+  },
+  "name": "Oriental Ceramic Shirt",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 210.95,
+  "description": "Generic Pants designed with Aluminum for rare performance",
+  "inStock": false,
+  "noOfSales": 430,
+  "color": [
+    "yellow"
+  ],
+  "tags": [
+    "bespoke",
+    "small"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb8"
+  },
+  "name": "Luxurious Granite Pants",
+  "image": "/frontend/images/product-8.jpg",
+  "price": 99.95,
+  "description": "The yellow Table combines Reunion aesthetics with Rutherfordium-based durability",
+  "inStock": true,
+  "noOfSales": 842,
+  "color": [
+    "olive"
+  ],
+  "tags": [
+    "awesome",
+    "luxurious"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbb9"
+  },
+  "name": "Gorgeous Ceramic Soap",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 308.89,
+  "description": "Discover the fox-like agility of our Shirt, perfect for tragic users",
+  "inStock": true,
+  "noOfSales": 315,
+  "color": [
+    "white",
+    "black",
+    "yellow"
+  ],
+  "tags": [
+    "modern",
+    "sleek",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbba"
+  },
+  "name": "Fantastic Granite Cheese",
+  "image": "/frontend/images/product-8.jpg",
+  "price": 460.59,
+  "description": "Our zesty-inspired Tuna brings a taste of luxury to your fearless lifestyle",
+  "inStock": false,
+  "noOfSales": 499,
+  "color": [
+    "silver",
+    "gold"
+  ],
+  "tags": [
+    "rustic",
+    "practical",
+    "ergonomic",
+    "fresh",
+    "practical"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbbb"
+  },
+  "name": "Practical Rubber Sausages",
+  "image": "/frontend/images/product-8.jpg",
+  "price": 309.9,
+  "description": "Luxurious Hat designed with Marble for massive performance",
+  "inStock": true,
+  "noOfSales": 84,
+  "color": [
+    "magenta",
+    "violet",
+    "grey"
+  ],
+  "tags": [
+    "ergonomic",
+    "modern",
+    "frozen",
+    "awesome",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbbc"
+  },
+  "name": "Soft Bamboo Pants",
+  "image": "/frontend/images/product-3.jpg",
+  "price": 388.29,
+  "description": "Featuring Nitrogen-enhanced technology, our Mouse offers unparalleled ornery performance",
+  "inStock": false,
+  "noOfSales": 315,
+  "color": [
+    "lavender",
+    "plum",
+    "green"
+  ],
+  "tags": [
+    "bespoke",
+    "ergonomic",
+    "modern"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbbd"
+  },
+  "name": "Awesome Bamboo Chair",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 69.49,
+  "description": "Savor the delicious essence in our Tuna, designed for stingy culinary adventures",
+  "inStock": true,
+  "noOfSales": 112,
+  "color": [
+    "pink"
+  ],
+  "tags": [
+    "refined",
+    "luxurious",
+    "refined"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbbe"
+  },
+  "name": "Handcrafted Silk Chips",
+  "image": "/frontend/images/product-6.jpg",
+  "price": 146.49,
+  "description": "Discover the trustworthy new Car with an exciting mix of Rubber ingredients",
+  "inStock": false,
+  "noOfSales": 197,
+  "color": [
+    "orchid"
+  ],
+  "tags": [
+    "incredible",
+    "fantastic",
+    "handcrafted",
+    "small",
+    "tasty"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbbf"
+  },
+  "name": "Fresh Bronze Shirt",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 313.09,
+  "description": "Ernser LLC's most advanced Car technology increases grizzled capabilities",
+  "inStock": false,
+  "noOfSales": 429,
+  "color": [
+    "olive",
+    "orange"
+  ],
+  "tags": [
+    "intelligent",
+    "handmade",
+    "elegant",
+    "sleek",
+    "licensed"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc0"
+  },
+  "name": "Handmade Bronze Salad",
+  "image": "/frontend/images/product-7.jpg",
+  "price": 435.87,
+  "description": "New Chair model with 16 GB RAM, 476 GB storage, and deserted features",
+  "inStock": true,
+  "noOfSales": 985,
+  "color": [
+    "magenta",
+    "cyan",
+    "red"
+  ],
+  "tags": [
+    "recycled",
+    "awesome",
+    "elegant"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc1"
+  },
+  "name": "Fresh Metal Shoes",
+  "image": "/frontend/images/product-11.jpg",
+  "price": 21.45,
+  "description": "Savor the crispy essence in our Keyboard, designed for delicious culinary adventures",
+  "inStock": false,
+  "noOfSales": 759,
+  "color": [
+    "sky blue"
+  ],
+  "tags": [
+    "frozen",
+    "bespoke"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc2"
+  },
+  "name": "Generic Silk Pizza",
+  "image": "/frontend/images/product-12.jpg",
+  "price": 453.19,
+  "description": "Ergonomic Soap made with Plastic for all-day tedious support",
+  "inStock": false,
+  "noOfSales": 717,
+  "color": [
+    "maroon",
+    "teal"
+  ],
+  "tags": [
+    "bespoke",
+    "sleek"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc3"
+  },
+  "name": "Bespoke Concrete Table",
+  "image": "/frontend/images/product-9.jpg",
+  "price": 13.09,
+  "description": "Featuring Selenium-enhanced technology, our Chips offers unparalleled whispered performance",
+  "inStock": false,
+  "noOfSales": 646,
+  "color": [
+    "lavender"
+  ],
+  "tags": [
+    "recycled",
+    "incredible"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc4"
+  },
+  "name": "Fresh Steel Chicken",
+  "image": "/frontend/images/product-1.jpg",
+  "price": 222.03,
+  "description": "Professional-grade Chicken perfect for secondary training and recreational use",
+  "inStock": false,
+  "noOfSales": 277,
+  "color": [
+    "red",
+    "orchid"
+  ],
+  "tags": [
+    "generic",
+    "refined",
+    "bespoke",
+    "licensed"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc5"
+  },
+  "name": "Awesome Wooden Fish",
+  "image": "/frontend/images/product-13.jpg",
+  "price": 119.99,
+  "description": "The Fundamental disintermediate standardization Pants offers reliable performance and delectable design",
+  "inStock": true,
+  "noOfSales": 759,
+  "color": [
+    "lime",
+    "lime",
+    "mint green"
+  ],
+  "tags": [
+    "soft",
+    "luxurious"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6905edd68c2b45ff9357fbc6"
+  },
+  "name": "Oriental Gold Computer",
+  "image": "/frontend/images/product-2.jpg",
+  "price": 246.49,
+  "description": "The Exclusive local contingency Cheese offers reliable performance and smooth design",
+  "inStock": true,
+  "noOfSales": 992,
+  "color": [
+    "black",
+    "teal"
+  ],
+  "tags": [
+    "handmade",
+    "handmade",
+    "frozen",
+    "sleek",
+    "practical"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T11:24:06.754Z"
+  }
+}]
