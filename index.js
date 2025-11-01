@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors';
-import serverConfig from './utils/server.config.js';
+import config from './utils/server.config.js';
 
 const app = express();
 
@@ -18,8 +18,8 @@ app.use((req, res, next) => {
     next();
 });
 
-const PORT = serverConfig().PORT;
-const MONGO_URI = serverConfig().MONGO_URI;
+const PORT = process.env.PORT || config().PORT;
+const MONGO_URI = config().MONGO_URI;
 
 // Root route
 app.get('/', (req, res) => {

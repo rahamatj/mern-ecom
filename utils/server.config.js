@@ -1,4 +1,4 @@
-const mode = "prod";
+const mode = "dev";
 
 function config() {
     let cfg = []
