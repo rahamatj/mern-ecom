@@ -11,9 +11,9 @@ const ProductOverview = () => {
     const [page, setPage] = React.useState(1);
     const [limit, setLimit] = React.useState(16);
 
-    // const API_URL = "https://mern-ecom-9jpw.onrender.com";
+    const API_URL = "https://mern-ecom-9jpw.onrender.com";
 
-    const API_URL = "http://localhost:3001";
+    // const API_URL = "http://localhost:3001";
 
     async function fetchProducts() {
         try {
