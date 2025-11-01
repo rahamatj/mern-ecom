@@ -6,7 +6,7 @@ function config() {
     cfg["dev"] = {
         MONGO_URI: "mongodb://127.0.0.1:27017/ecom",
         PORT: 3001,
-        API_URL: `http://127.0.0.1:${this.PORT}`,
+        API_URL: `http://127.0.0.1:3001`,
     }
 
     cfg["prod"] = {
