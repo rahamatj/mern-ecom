@@ -27,9 +27,9 @@ router.get(`/paginate`, async (req, res) => {
     let products = []
 
     try {
-        // products = await Product.find().skip(skip).limit(limit);
+        products = await Product.find().skip(skip).limit(limit);
 
-        products = await Product.find()
+        // products = await Product.find()
     } catch (e) {
         console.error(e)
     }
