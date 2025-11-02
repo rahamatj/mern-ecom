@@ -5,6 +5,10 @@ import product from "../models/Product.js";
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+    res.send("products");
+})
+
 router.get(`/paginate`, async (req, res) => {
 
     let page = 1;
@@ -23,7 +27,9 @@ router.get(`/paginate`, async (req, res) => {
     let products = []
 
     try {
-        products = await Product.find().skip(skip).limit(limit);
+        // products = await Product.find().skip(skip).limit(limit);
+
+        products = await Product.find()
     } catch (e) {
         console.error(e)
     }

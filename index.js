@@ -23,7 +23,7 @@ const MONGO_URI = config().MONGO_URI;
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.json('Hello, World!');
 });
 
 // Use product routes - this was imported but never used
